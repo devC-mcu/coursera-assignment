@@ -28,13 +28,61 @@
  *
  * <Add Extended Description Here>
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
+ * This function  prints the statistics of an array including minimum,
+ * maximum, mean, and median.
  */
+void print_statistics(unsigned char* array1, unsigned int length);
+
+
+
+/**
+ * @brief Prints the array on the screen
+ */
+ void print_array(unsigned char* array1, unsigned int length);
+
+
+
+/**
+* @brief Returns median value of given array
+* This function finds the median value of given array
+* @return Array median value
+*/
+unsigned char find_median(unsigned char* array1, unsigned int length);
+
+
+
+/**
+* @brief Returns mean value of given array
+* This function calcuates the mean value of given array
+* @return Array mean value
+*/
+unsigned char find_mean(unsigned char* array1, unsigned int length);
+
+
+
+/**
+* @brief Returns maximum value of given array
+* This function finds the maximum value of given array
+* @return Array maximum value
+*/
+unsigned char find_maximum(unsigned char* array1, unsigned int length);
+
+
+
+/**
+* @brief Returns minimum value of given array
+* This function finds the minimum value of given array
+* @return Array minimum value
+*/
+unsigned char find_minimum(unsigned char* array1, unsigned int length);
+
+
+
+/**
+* @brief Sorts the array from largest to smallest
+*/
+void sort_array(unsigned char* array1, unsigned int length);
+
 
 
 #endif /* __STATS_H__ */
